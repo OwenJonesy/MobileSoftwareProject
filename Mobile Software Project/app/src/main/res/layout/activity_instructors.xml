@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".InstructorsActivity">
+
+    <!-- First Instructor Views -->
+    <ImageView
+        android:id="@+id/instructorImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/instructor1" />
+
+    <TextView
+        android:id="@+id/instructorNameTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructor Name"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/instructorDetailsTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructor details go here."
+        android:layout_marginTop="8dp"/>
+
+    <!-- Second Instructor Views -->
+    <ImageView
+        android:id="@+id/instructorImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/instructor2" />
+
+    <TextView
+        android:id="@+id/instructorNameTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructor Name"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/instructorDetailsTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructor details go here."
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

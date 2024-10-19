@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driving School"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/buttonInstructors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instructors"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/buttonBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking"
+        android:layout_below="@+id/buttonInstructors"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:layout_below="@+id/buttonBooking"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Button to change the image -->
+    <Button
+        android:id="@+id/buttonChangeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Image"
+        android:layout_below="@+id/buttonMap"
+        android:layout_marginTop="16dp"/>
+
+    <!-- ImageView for displaying the image -->
+    <!-- ImageView for displaying the image -->
+    <!-- ImageView for displaying the image -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonChangeImage"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/image1"
+        android:scaleType="fitCenter"
+        />
+
+
+
+</RelativeLayout>
